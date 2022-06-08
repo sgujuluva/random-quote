@@ -12,6 +12,7 @@ let array = ["Be yourself; everyone else is already taken.","I'm selfish, impati
 "You only live once, but if you do it right, once is enough.","Be the change that you wish to see in the world",
 "In three words I can sum up everything I've learned about life: it goes on."];
 //to create random text from array
+p.innerHTML = random();
 function random(){
   return p.innerHTML = array[Math.floor(Math.random() * array.length)];
 }

@@ -3,21 +3,42 @@
     padding : 0;
     box-sizing: border-box;
 }
+body{
+    height : 100vh;
+    background-color: deepskyblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 h1{
     text-align: center;
+    color :white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container{
-    width : 70vw;
-    height:60vh;
-    border:2px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  
 }
 .container p{
-    width:70vw;
-    border:2px solid grey;
-    height:10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:80vw;
+    background-color:purple;
+    border-radius: 20px;
+    min-height:15vh;
+    color:white;
+    font-size: x-large;
+   margin :4rem 0;
+   padding :1rem;
 }
 .container button{
-    margin:2rem;
-    height:2rem;
+background-color: blue;
+color : white;
+border-radius: 20px;
+    height:3rem;
     width:10rem;
+    font-size: larger;
 }
